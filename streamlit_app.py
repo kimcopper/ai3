@@ -73,6 +73,7 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
        "texts": ["", "", ""],
        "images": ["", ""],
        "videos": [""]
+    },
     labels[1]: {
        "texts": ["", "", ""],
        "images": ["", ""],
@@ -82,7 +83,7 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
        "texts": ["", "", ""],
        "images": ["", ""],
        "videos": [""]
-    },
+    }
 }
 
 # ======================
