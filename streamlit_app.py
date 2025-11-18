@@ -70,17 +70,17 @@ st.markdown("---")
 CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
 
      labels[0]: {
-       "texts": ["", "", ""],
-       "images": ["", ""],
-       "videos": [""]
+       "texts": ["전 전 대통령", "19대 대통령", "민주당 출신"],
+       "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Moon_Jae-in_%282017-10-01%29_cropped.jpg/250px-Moon_Jae-in_%282017-10-01%29_cropped.jpg", "https://www.jeonmin.co.kr/news/photo/201705/169219_28095_3642.png"],
+       "videos": ["https://www.youtube.com/watch?v=xBj8QOTbjPQ&embeds_referring_euri=https%3A%2F%2Fwww.google.com%2Fsearch%3Fclient%3Dtablet-android-samsung-ss%26sa%3DX%26sca_esv%3Dfdcf620e6fdd6b42%26udm%3D7%26fbs%3DAIIjpHyDg0Pef0CibV20xjIa-&source_ve_path=MjM4NTE"]
     },
     labels[1]: {
-       "texts": ["", "", ""],
-       "images": ["", ""],
+       "texts": ["전 대통령", "20대 대통령", "국힘 출신"],
+       "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/South_Korea_President_Yoon_Suk_Yeol_portrait.jpg/330px-South_Korea_President_Yoon_Suk_Yeol_portrait.jpg", ""],
        "videos": [""]
     },
     labels[2]: {
-       "texts": ["", "", ""],
+       "texts": ["현 대통령", "21대 대통령", "민주당 출신"],
        "images": ["", ""],
        "videos": [""]
     }
