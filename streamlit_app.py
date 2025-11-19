@@ -76,13 +76,13 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     },
     labels[1]: {
        "texts": ["전 대통령", "20대 대통령", "국힘 출신"],
-       "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/South_Korea_President_Yoon_Suk_Yeol_portrait.jpg/330px-South_Korea_President_Yoon_Suk_Yeol_portrait.jpg", ""],
-       "videos": [""]
+       "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/South_Korea_President_Yoon_Suk_Yeol_portrait.jpg/330px-South_Korea_President_Yoon_Suk_Yeol_portrait.jpg", "https://cdn.ccmessage.kr/news/photo/fee/202509/95780_184314_921.jpg"],
+       "videos": ["https://www.youtube.com/watch?v=BzWnX-r2qtU"]
     },
     labels[2]: {
        "texts": ["현 대통령", "21대 대통령", "민주당 출신"],
-       "images": ["", ""],
-       "videos": [""]
+       "images": ["https://flexible.img.hani.co.kr/flexible/normal/970/582/imgdb/child/2025/1101/53_17619733501852_6117619733321313.jpg", "https://cdn.incheonilbo.com/news/photo/202202/1132394_412293_158.jpg"],
+       "videos": ["https://www.youtube.com/watch?v=roo56YYAivQ"]
     }
 }
 
